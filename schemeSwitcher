@@ -1,0 +1,19 @@
+ schemes
+    {
+        type            schemeSwitcher;
+        libs           ("libschemeSwitcher.so");
+        
+        schemeSwitch
+        {
+            "5.0"  // Switch at t = 5.0
+            {
+                ddtSchemes
+                {
+                    "Euler"    "backward";
+                }
+            }
+            
+            
+        }
+    }
+
